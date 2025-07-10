@@ -109,10 +109,10 @@
  }
 
  .icon {
-     width: 20px;
+     width: 30px;
      height: 30px;
      border: 2px solid #ccc;
-     border-radius: 50%;
+     border-radius: 70%;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -153,6 +153,10 @@
      color: white;
 
  }
+ .banner-menu button:hover{
+    background-color: #000;
+    cursor: pointer;
+ }
 
  .content-head {
      display: flex;
@@ -185,6 +189,10 @@
      color: white;
      font-weight: 600;
      /* margin-bottom: 300px; */
+ }
+ .content-head button:hover{
+    background-color: #000;
+    cursor: pointer;
  }
 
  .agents-section {
@@ -312,7 +320,11 @@
      color: white;
      border-color: white;
  }
-
+.property-search button:hover{
+    background-color: white;
+    cursor: pointer;
+    color: #000;
+}
  .about-bottom {
      display: grid;
       justify-items: center;
@@ -877,6 +889,7 @@
      margin-left: -10px;
      z-index: 1;
  }
+
     .discover-contact{
         background-color: white;
         padding: 10px 16px;
@@ -889,6 +902,16 @@
         margin-left: 30px;
         font-weight: 500;
     }
+    .discover-contact:hover{
+        background-color: black ;
+        color: white;
+        cursor: pointer;
+    }
+        .discover-listing:hover{
+            background-color: white;
+            color: #000;
+            cursor: pointer;
+        }
     .discover-side2{
         margin-bottom: 50px;
     }
@@ -966,9 +989,15 @@
      font-size: 1rem;
      cursor: pointer;
      transition: 0.3s ease;    }
+     .blog-head-right button:hover{
+        background-color: #000;
+        color: white;
+        cursor: pointer;
+     }
     .newsletter-footer{
         margin-top: 10%;
     }
+
     .newsletter-container{
      background-image: url('./assets/images-JJMRNLE.jpg');
     background-position: center;
@@ -1017,6 +1046,9 @@
     font-weight: 600;
     font-size: 1rem;
 }
+.news-side2 input::placeholder {
+  color: white;
+ }
 
 .footer {
     display: grid;
