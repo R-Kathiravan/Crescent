@@ -8,6 +8,20 @@
      font-family: 'Playfair Display', serif;
 
  }
+ .container{
+      animation: fadeUp 1s ease forwards;
+      animation-delay: 0.5s;
+ }
+  @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
  .header {
      display: flex;
      flex-direction: row;
@@ -1274,6 +1288,12 @@ height: 60px;
     width: 30%;
 
 }
+.header button{
+    margin-right: 0;
+}
+.agents-section{
+    margin-left: 35px;
+}
 .banner-head{
     grid-template-columns: 1fr 1fr ;
     justify-items: end;
@@ -1292,6 +1312,11 @@ height: 60px;
 }
 .services{
     padding-top: 20px;
+}
+.logo-grid{
+        justify-self: center;
+    justify-items: center;
+    flex-wrap: nowrap;
 }
  
 .property-section{
@@ -1365,7 +1390,6 @@ height: 60px;
     }
     .footer{
         grid-template-columns: 1fr;
-        margin-right: 20px;
+        margin-left: 10px;
     }
-   
 }
